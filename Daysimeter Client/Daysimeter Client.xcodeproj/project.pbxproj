@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA2FBD41C93673300A5247D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2FBD31C93673300A5247D /* AppDelegate.swift */; };
+		6CA2FBD61C93673300A5247D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2FBD51C93673300A5247D /* ViewController.swift */; };
+		6CA2FBD91C93673300A5247D /* Daysimeter_Client.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2FBD71C93673300A5247D /* Daysimeter_Client.xcdatamodeld */; };
+		6CA2FBDB1C93673300A5247D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA2FBDA1C93673300A5247D /* Assets.xcassets */; };
+		6CA2FBDE1C93673300A5247D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA2FBDC1C93673300A5247D /* Main.storyboard */; };
+		6CA2FBE91C93673300A5247D /* Daysimeter_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2FBE81C93673300A5247D /* Daysimeter_ClientTests.swift */; };
+		6CA2FBF41C93673300A5247D /* Daysimeter_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2FBF31C93673300A5247D /* Daysimeter_ClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA2FBE51C93673300A5247D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA2FBC81C93673300A5247D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA2FBCF1C93673300A5247D;
+			remoteInfo = "Daysimeter Client";
+		};
+		6CA2FBF01C93673300A5247D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA2FBC81C93673300A5247D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA2FBCF1C93673300A5247D;
+			remoteInfo = "Daysimeter Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CA2FBD01C93673300A5247D /* Daysimeter Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daysimeter Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA2FBD31C93673300A5247D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA2FBD51C93673300A5247D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CA2FBD81C93673300A5247D /* Daysimeter_Client.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daysimeter_Client.xcdatamodel; sourceTree = "<group>"; };
+		6CA2FBDA1C93673300A5247D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA2FBDD1C93673300A5247D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA2FBDF1C93673300A5247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA2FBE41C93673300A5247D /* Daysimeter ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daysimeter ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA2FBE81C93673300A5247D /* Daysimeter_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daysimeter_ClientTests.swift; sourceTree = "<group>"; };
+		6CA2FBEA1C93673300A5247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA2FBEF1C93673300A5247D /* Daysimeter ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daysimeter ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA2FBF31C93673300A5247D /* Daysimeter_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daysimeter_ClientUITests.swift; sourceTree = "<group>"; };
+		6CA2FBF51C93673300A5247D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA2FBCD1C93673300A5247D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBE11C93673300A5247D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBEC1C93673300A5247D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA2FBC71C93673300A5247D = {
+			isa = PBXGroup;
+			children = (
+				6CA2FBD21C93673300A5247D /* Daysimeter Client */,
+				6CA2FBE71C93673300A5247D /* Daysimeter ClientTests */,
+				6CA2FBF21C93673300A5247D /* Daysimeter ClientUITests */,
+				6CA2FBD11C93673300A5247D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA2FBD11C93673300A5247D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2FBD01C93673300A5247D /* Daysimeter Client.app */,
+				6CA2FBE41C93673300A5247D /* Daysimeter ClientTests.xctest */,
+				6CA2FBEF1C93673300A5247D /* Daysimeter ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA2FBD21C93673300A5247D /* Daysimeter Client */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2FBD31C93673300A5247D /* AppDelegate.swift */,
+				6CA2FBD51C93673300A5247D /* ViewController.swift */,
+				6CA2FBDA1C93673300A5247D /* Assets.xcassets */,
+				6CA2FBDC1C93673300A5247D /* Main.storyboard */,
+				6CA2FBDF1C93673300A5247D /* Info.plist */,
+				6CA2FBD71C93673300A5247D /* Daysimeter_Client.xcdatamodeld */,
+			);
+			path = "Daysimeter Client";
+			sourceTree = "<group>";
+		};
+		6CA2FBE71C93673300A5247D /* Daysimeter ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2FBE81C93673300A5247D /* Daysimeter_ClientTests.swift */,
+				6CA2FBEA1C93673300A5247D /* Info.plist */,
+			);
+			path = "Daysimeter ClientTests";
+			sourceTree = "<group>";
+		};
+		6CA2FBF21C93673300A5247D /* Daysimeter ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2FBF31C93673300A5247D /* Daysimeter_ClientUITests.swift */,
+				6CA2FBF51C93673300A5247D /* Info.plist */,
+			);
+			path = "Daysimeter ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA2FBCF1C93673300A5247D /* Daysimeter Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA2FBF81C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter Client" */;
+			buildPhases = (
+				6CA2FBCC1C93673300A5247D /* Sources */,
+				6CA2FBCD1C93673300A5247D /* Frameworks */,
+				6CA2FBCE1C93673300A5247D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daysimeter Client";
+			productName = "Daysimeter Client";
+			productReference = 6CA2FBD01C93673300A5247D /* Daysimeter Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA2FBE31C93673300A5247D /* Daysimeter ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA2FBFB1C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter ClientTests" */;
+			buildPhases = (
+				6CA2FBE01C93673300A5247D /* Sources */,
+				6CA2FBE11C93673300A5247D /* Frameworks */,
+				6CA2FBE21C93673300A5247D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA2FBE61C93673300A5247D /* PBXTargetDependency */,
+			);
+			name = "Daysimeter ClientTests";
+			productName = "Daysimeter ClientTests";
+			productReference = 6CA2FBE41C93673300A5247D /* Daysimeter ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA2FBEE1C93673300A5247D /* Daysimeter ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA2FBFE1C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter ClientUITests" */;
+			buildPhases = (
+				6CA2FBEB1C93673300A5247D /* Sources */,
+				6CA2FBEC1C93673300A5247D /* Frameworks */,
+				6CA2FBED1C93673300A5247D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA2FBF11C93673300A5247D /* PBXTargetDependency */,
+			);
+			name = "Daysimeter ClientUITests";
+			productName = "Daysimeter ClientUITests";
+			productReference = 6CA2FBEF1C93673300A5247D /* Daysimeter ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA2FBC81C93673300A5247D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rensselaer Polytechnic Institute, Lighting Research Center";
+				TargetAttributes = {
+					6CA2FBCF1C93673300A5247D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6CA2FBE31C93673300A5247D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6CA2FBCF1C93673300A5247D;
+					};
+					6CA2FBEE1C93673300A5247D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6CA2FBCF1C93673300A5247D;
+					};
+				};
+			};
+			buildConfigurationList = 6CA2FBCB1C93673300A5247D /* Build configuration list for PBXProject "Daysimeter Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA2FBC71C93673300A5247D;
+			productRefGroup = 6CA2FBD11C93673300A5247D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA2FBCF1C93673300A5247D /* Daysimeter Client */,
+				6CA2FBE31C93673300A5247D /* Daysimeter ClientTests */,
+				6CA2FBEE1C93673300A5247D /* Daysimeter ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA2FBCE1C93673300A5247D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2FBDB1C93673300A5247D /* Assets.xcassets in Resources */,
+				6CA2FBDE1C93673300A5247D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBE21C93673300A5247D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBED1C93673300A5247D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA2FBCC1C93673300A5247D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2FBD61C93673300A5247D /* ViewController.swift in Sources */,
+				6CA2FBD41C93673300A5247D /* AppDelegate.swift in Sources */,
+				6CA2FBD91C93673300A5247D /* Daysimeter_Client.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBE01C93673300A5247D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2FBE91C93673300A5247D /* Daysimeter_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2FBEB1C93673300A5247D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2FBF41C93673300A5247D /* Daysimeter_ClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA2FBE61C93673300A5247D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA2FBCF1C93673300A5247D /* Daysimeter Client */;
+			targetProxy = 6CA2FBE51C93673300A5247D /* PBXContainerItemProxy */;
+		};
+		6CA2FBF11C93673300A5247D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA2FBCF1C93673300A5247D /* Daysimeter Client */;
+			targetProxy = 6CA2FBF01C93673300A5247D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA2FBDC1C93673300A5247D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA2FBDD1C93673300A5247D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA2FBF61C93673300A5247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA2FBF71C93673300A5247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CA2FBF91C93673300A5247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CA2FBFA1C93673300A5247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CA2FBFC1C93673300A5247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daysimeter Client.app/Contents/MacOS/Daysimeter Client";
+			};
+			name = Debug;
+		};
+		6CA2FBFD1C93673300A5247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daysimeter Client.app/Contents/MacOS/Daysimeter Client";
+			};
+			name = Release;
+		};
+		6CA2FBFF1C93673300A5247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daysimeter Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6CA2FC001C93673300A5247D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Daysimeter ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RPI-LRC.Daysimeter-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daysimeter Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA2FBCB1C93673300A5247D /* Build configuration list for PBXProject "Daysimeter Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2FBF61C93673300A5247D /* Debug */,
+				6CA2FBF71C93673300A5247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA2FBF81C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2FBF91C93673300A5247D /* Debug */,
+				6CA2FBFA1C93673300A5247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CA2FBFB1C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2FBFC1C93673300A5247D /* Debug */,
+				6CA2FBFD1C93673300A5247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CA2FBFE1C93673300A5247D /* Build configuration list for PBXNativeTarget "Daysimeter ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2FBFF1C93673300A5247D /* Debug */,
+				6CA2FC001C93673300A5247D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CA2FBD71C93673300A5247D /* Daysimeter_Client.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CA2FBD81C93673300A5247D /* Daysimeter_Client.xcdatamodel */,
+			);
+			currentVersion = 6CA2FBD81C93673300A5247D /* Daysimeter_Client.xcdatamodel */;
+			path = Daysimeter_Client.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CA2FBC81C93673300A5247D /* Project object */;
+}
